@@ -1,0 +1,30 @@
+{
+  "name": "attendance_monitoring_server",
+  "version": "1.0.0",
+  "description": "attendance monitoring server side using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BIJAYJHA/attendance_monitoring_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BIJAYJHA/attendance_monitoring_server/issues"
+  },
+  "homepage": "https://github.com/BIJAYJHA/attendance_monitoring_server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
